@@ -5,9 +5,9 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className="myHeader">
+    <nav className="myHeader" id='myAlign'>
       <h1>Bryn Glotfelty</h1>
-      <div id='myAlign'>
+      <div className="myNav">
       <p className="nav-item">
         <Link
           to="/"
