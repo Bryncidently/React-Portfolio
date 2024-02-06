@@ -46,7 +46,7 @@
 .myHeader {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(./assets/Wood.jpeg);
-  color: lightblue;
+  color: #e0fbfc;
   background-size: cover;
   height: 100px;
   width: 100%;
@@ -94,3 +94,7 @@
   }
 }
 
+a.nav-link.active {
+  color: hotpink;
+
+}
