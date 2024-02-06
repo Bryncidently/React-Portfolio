@@ -5,19 +5,13 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="myHeader">
+      <h1>Bryn Glotfelty</h1>
+      <div id='myAlign'>
       <p className="nav-item">
         <Link
           to="/"
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </Link>
-      </p>
-      <p className="nav-item">
-        <Link
-          to="/About"
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
         >
           About Me
         </Link>
@@ -46,7 +40,10 @@ function NavTabs() {
           Contact
         </Link>
       </p>
+      </div>
+      
     </nav>
+
   );
 }
 
