@@ -36,8 +36,8 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
+      <form onSubmit={handleSubmit} className='contactForm'>
+        <div className='mb-4'>
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -45,10 +45,11 @@ export default function Contact() {
             name="name"
             value={formData.name}
             onChange={handleInputChange}
+            className='form-control'
             required
           />
         </div>
-        <div>
+        <div className='mb-4'>
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -56,21 +57,24 @@ export default function Contact() {
             name="email"
             value={formData.email}
             onChange={handleInputChange}
+            className='form-control'
             required
           />
           {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
         </div>
-        <div>
+        <div className='mb-4'>
           <label htmlFor="message">Message:</label>
           <textarea
             id="message"
             name="message"
             value={formData.message}
             onChange={handleInputChange}
+            className='form-control'
+            rows="10"
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className='btn btn-primary'>Submit</button>
       </form>
     </div>
   );

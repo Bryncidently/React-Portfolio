@@ -112,3 +112,14 @@ a.nav-link.active {
   justify-content: center;
 
 }
+
+.contactForm {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+main {
+  color: white;
+}
