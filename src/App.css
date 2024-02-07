@@ -123,3 +123,8 @@ a.nav-link.active {
 main {
   color: white;
 }
+
+.about {
+  margin-top: 2%;
+  text-align: left;
+}

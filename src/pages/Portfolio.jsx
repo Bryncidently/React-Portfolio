@@ -7,7 +7,7 @@ export default function Portfolio() {
   //github
     return (
       <div>
-        <h1>Portfolio</h1>
+        <h1 className="mb-4">Portfolio</h1>
         <div className="projectContainer">
        <Project title="Note Taker" github="https://github.com/Bryncidently/Note-Taker" image="./src/assets/Note Taker.png" app="https://bryn-note-taker-65f78605a07a.herokuapp.com/"/>
 
