@@ -16,7 +16,7 @@ export default function Resume() {
           </ul>
           
       <br />
-      <a href="./src/assets/Entire shrek script.pdf" download className="btn btn-lg btn-primary">Download Resume </a>
+      <a href="/Entire shrek script.pdf" download className="btn btn-lg btn-primary">Download Resume </a>
         </p>
       </div>
     );
