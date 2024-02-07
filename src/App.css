@@ -85,7 +85,7 @@
   padding: 10px;
 }
 
-.myFooter a {
+.myFooter a,.githubLink  {
   font-size: 32px;
   color: #e0fbfc;
 
@@ -96,5 +96,19 @@
 
 a.nav-link.active {
   color: hotpink;
+
+}
+
+.projectImage {
+  width: 600px;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1220px;
+  justify-content: center;
 
 }
